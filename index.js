@@ -74,8 +74,8 @@ function openEnv (name) {
             },
             easing: 'linear',
             duration: 1500,
-            // delay: anime.stagger(5),
-            // complete: animateBlocks,
+            delay: anime.stagger(5),
+            complete: animateBlocks,
         })
         anime ({
             targets: '.heart',
