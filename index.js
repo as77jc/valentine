@@ -8,7 +8,7 @@ formData.classList.add('form');
 container.appendChild(formData);
 formData.innerHTML = `
         <form>
-            <h1>Enter your paetner's name:</h1>
+            <h1>Enter your partner's name:</h1>
             <input type='text' placeholder='Name:' id='partnerName' autocomplete='off'>
             <br>
             <button id='submit'>Greeting</button>
@@ -41,7 +41,7 @@ submit.addEventListener('click', () => {
 
 function openEnv (name) {
     
-    for (let i = 0; i<= 100; i++){
+    for (let i = 0; i<= 80; i++){
         const blocks = document.createElement('div');
         blocks.classList.add('block');
         container.appendChild(blocks)   
@@ -82,10 +82,6 @@ function openEnv (name) {
             translateX: 200,
             scale: 5,
             rotate: 45,
-            // scale: function () {
-            //     return anime.random(2.5, 3.2);
-            // },
-            // complete: animateBlocks,
         })
     }
 
